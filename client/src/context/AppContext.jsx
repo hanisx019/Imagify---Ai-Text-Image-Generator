@@ -24,7 +24,7 @@ const AppContextProvider = (props)=>{
 
 
     // connecting frontend with backend 
-    const backendUrl='https://imagifyai-sigma-six.vercel.app/'
+    const backendUrl=process.env.VITE_BACKEND_URL // importing backend url through env
     //importing backend url through env
 
     // loads user's credit data from the backend
