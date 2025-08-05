@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+*
+{
+    font-family: Outfit;
+}
+
+/* Hide scrollbar for all browsers */
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar, *::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  background: transparent !important;
+}
+@media screen and (width < 640px) {
+    .div-header{
+      width: auto;
+    }
+    .header-title {
+      font-size: 47px;
+    }
+    .header-image {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .create-image{
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    }
+    .div-body{
+      width: 100%;
+      padding: 12px;
+    }
+    .div-eye{
+      width:70px;
+    }
+    .div-h2{
+      font-size:18px;
+    }
+    .div-p{
+      font-size: 14px;
+    }
+    .div-eye{
+      width: 70px;
+    }
+    .div-h2{
+      font-size: 18px;
+    }
+    .div-p{
+      font-size: 14px;
+    }
+    .create-img{
+      flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    }
+    .text-align{
+      text-align: center;
+    }
+    .testi{
+      flex-flow: column;
+    }
+    .testi > div{
+      width: 88%;
+    }
+   .header{
+      width: 110px;
+    }
+    .none{
+      display: none;
+    }
+    .cr-left{
+    width: 120px;
+    font-size: 10px;
+    padding-right: 6px;
+    text-align: center;
+    }
+    .p1{
+      width: 33%;
+    }
+    .p2{
+      width: 100%;
+      margin-top: 20%;
+    }
+    .place{
+      padding-right: 130px;
+      padding-left: 16px;
+    }.wd{
+      width: 100%;
+    }
+}
+@media screen and (width <= 1280px) and (width > 640px) {
+  .md{
+    flex-flow: column;
+    width: 61%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .wd{
+    width: 100%;
+  }
+  .ww{
+    justify-content: center;
+  }
+}
