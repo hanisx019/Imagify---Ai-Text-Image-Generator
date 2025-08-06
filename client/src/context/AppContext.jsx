@@ -24,7 +24,7 @@ const AppContextProvider = (props)=>{
 
 
     // connecting frontend with backend 
-    const backendUrl=process.env.VITE_BACKEND_URL // importing backend url through env
+    const backendUrl='https://imagify-ai-njbx.onrender.com'
     //importing backend url through env
 
     // loads user's credit data from the backend
