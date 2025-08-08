@@ -84,11 +84,11 @@ const Login = () => {
 
         <p class="text-blue-600 mt-3 ml-[-130px] text-[14px]">{state=='Login'?'Forgot password?':' '}</p>
 
-        <button class="bg-blue-600 text-white mt-[20px]  p-2 w-[250px] h-[40px]  border-gray-400 shadow-lg rounded-full text-center">{state==='Login'?'Login':'create account'}</button>
+        <button class="bg-blue-600 text-white mt-[20px]  p-2 w-[250px] h-[40px] cursor-pointer border-gray-400 shadow-lg rounded-full text-center">{state==='Login'?'Login':'create account'}</button>
         { state==='Login' ?
-        <p class="my-6">Don't have an account?<span class="text-blue-600" onClick={()=>setState('Sign Up')}>Sign up</span></p>
+        <p class="my-6">Don't have an account?<span class="text-blue-600 cursor-pointer" onClick={()=>setState('Sign Up')}>Sign up</span></p>
 :
-        <p class="my-6">Already have an account?<span class="text-blue-600 "onClick={()=>setState('Login')}> Login</span></p>
+        <p class="my-6">Already have an account?<span class="text-blue-600  cursor-pointer"onClick={()=>setState('Login')}> Login</span></p>
 
 }
         <img onClick={()=>setShowLogin(false)} src={assets.cross_icon} class="absolute top-5 right-5 z-40"/>

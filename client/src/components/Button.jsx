@@ -24,7 +24,7 @@ const Button = () => {
         <div class="mt-[20px]">
             <button onClick={onClickHandler} class="flex justify-center items-center  gap-2 bg-black text-center text-white p-3 rounded-full w-[210px] 
              hover:scale-105 transition-all duration-500">
-            <p>Generate Images</p>
+            <p class="cursor-pointer">Generate Images</p>
             <img width="20px" src={assets.star_group}/>
             </button>
         </div>

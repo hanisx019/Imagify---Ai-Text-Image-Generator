@@ -49,7 +49,7 @@ const Header = () => {
       animate={{ opacity: 1}}
       transition={{default :{duration:0.5},opacity:{delay:0.8,duration:1}}}
       >
-        <button class="flex justify-center items-center  gap-2 bg-black text-center text-white p-3 rounded-full w-[210px] 
+        <button class="cursor-pointer flex justify-center items-center  gap-2 bg-black text-center text-white p-3 rounded-full w-[210px] 
         hover:scale-105 transition-all duration-500">
           <p onClick={onClickHandler}>Generate Images</p>
           <img width="20px" src={assets.star_group}/>
